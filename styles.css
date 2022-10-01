@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primary-color : ;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    margin: 0rem;
+    background-color: #eef2ff;
+}
+
+h1 {
+    background-color: #4f46e5;
+    margin: 0rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.description {
+    margin: 0rem 20rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.input-fields {
+    text-align: center;
+    margin: 0rem 20rem;
+    padding: 1rem;
+    border: 1px solid #4f46e5;
+    background-color: #c7d2fe ;
+}
+
+input{
+    display: block;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+button {
+    margin-top: 0.2rem; ;
+    padding: 0.2rem 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.error-msg {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 0rem;
+}
+
+.container {
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.table-display {
+    text-align: center;
+    margin: 0rem 20rem 2rem;
+}
+
+caption {
+    font-weight: bold;
+    margin: 1rem;
+    font-size: larger;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid;
+    padding: 0.5rem;
+    border-spacing: 5px;
+    border: 2px solid #4f46e5;
+}
+
+td {
+    width: calc(100%/7);
+    height: 3rem;
+    letter-spacing: 2.5px;
+    border: 2px solid #4f46e5;
+}
+
+tbody {
+    margin: 0.5rem;
+}
+
+table {
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    border: 2px solid #4f46e5;
+    padding: 0.2rem;
+}
+
+/* Styling for footer */
+
+footer {
+    text-align: center;
+    padding: 0.5rem;
+    margin-bottom: 0rem;
+    list-style: none;
+    background-color: #4f46e5;
+    color: whitesmoke;
+}
+
+h3 {
+    padding-bottom: 0.5rem;
+}
+li {
+    display: inline;
+    padding: 2rem;
+    margin: 2rem;
+    color: whitesmoke;
+}
+
+a {
+    color: whitesmoke;
+}
