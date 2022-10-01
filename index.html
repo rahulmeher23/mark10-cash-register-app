@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar"><h1>Cash Register Manager</h1></div>
+        <div class="description"><p>Enter the bill amount and the cash given and know the minimum number of notes to be returned.</p></div>
+        
+        <div class="input-fields">
+            <label for="bill-amount">Bill Amount (₹) : </label>
+            <input id="bill-amount" type="number" />
+            <label for="cash-given">Cash Given (₹): </label>
+            <input id="cash-given" type="number" />
+            <button class="check-button">Check</button>
+            <p class="error-msg"></p>
+        </div>
+        
+        
+
+
+        <div class="table-display">
+            <table class="returnChangeTable">
+                <caption>Return Change</caption>
+                <tbody>
+                    <tr>
+                        <th>No. of Notes</th>
+                        <td class="no-of-notes">--</td>
+                        <td class="no-of-notes">--</td>
+                        <td class="no-of-notes">--</td>
+                        <td class="no-of-notes">--</td>
+                        <td class="no-of-notes">--</td>
+                        <td class="no-of-notes">--</td>
+                        <td class="no-of-notes">--</td>
+                    </tr>
+
+                    <tr>
+                        <th>Notes</th>
+                        <td>2000</td>
+                        <td>500</td>
+                        <td>100</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>5</td>
+                        <td>1</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="social-media">
+        <h3>Social Media</h3>
+        <ul>
+            <li class="inline non-bullet"><a class="link" target="_blank" href="https://github.com/rahulmeher23"><i class="fa-brands fa-github favicon fa-2x"></i></a></li>
+            <li class="inline non-bullet"><a class="link" target="_blank" href="https://linkedin.com/in/rahul--meher"><i class="fa-brands fa-linkedin favicon fa-2x"></i></a></li>
+            <li class="inline non-bullet"><a class="link" target="_blank" href="/NO TWITTER ACCOUNT"><i class="fa-brands fa-square-twitter favicon fa-2x"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="/app.js"></script>
+    <script src="https://kit.fontawesome.com/1136efa342.js" crossorigin="anonymous"></script>
+</body>
+</html>
