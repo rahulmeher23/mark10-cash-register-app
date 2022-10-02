@@ -3,6 +3,13 @@ const cashGiven = document.querySelector("#cash-given");
 const checkBtn = document.querySelector(".check-button");
 const message = document.querySelector(".error-msg");
 const returnNotes = document.querySelectorAll(".no-of-notes");
+const hideDisplay = document.querySelector(".hide-display");
+
+hideDisplay.style.display ="none";
+
+billAmt.addEventListener("input", function() {
+    hideDisplay.style.display = "block";
+})
 
 var lessCash = 0;
 message.innerText = "";

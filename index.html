@@ -13,10 +13,17 @@
         <div class="description"><p>Enter the bill amount and the cash given and know the minimum number of notes to be returned.</p></div>
         
         <div class="input-fields">
-            <label for="bill-amount">Bill Amount (₹) : </label>
-            <input id="bill-amount" type="number" />
-            <label for="cash-given">Cash Given (₹): </label>
-            <input id="cash-given" type="number" />
+
+            <div class="enter-bill">
+                <label for="bill-amount">Bill Amount (₹) : </label>
+                <input id="bill-amount" type="number" />
+            </div>
+
+            <div class="enter-cash hide-display">
+                <label for="cash-given">Cash Given (₹): </label>
+                <input id="cash-given" type="number" />
+            </div>
+            
             <button class="check-button">Check</button>
             <p class="error-msg"></p>
         </div>
