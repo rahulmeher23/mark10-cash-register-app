@@ -80,7 +80,7 @@ caption {
     color: #4f46e5;
 }
 
-th, td {
+th, td {    
     text-align: center;
     border: 1px solid;
     padding: 0.5rem;
@@ -122,10 +122,11 @@ footer {
 h3 {
     padding-bottom: 0.5rem;
 }
+
 li {
     display: inline;
-    padding: 2rem;
-    margin: 2rem;
+    padding: 1.5rem 2rem;
+    margin: 0.5rem;
     color: whitesmoke;
 }
 

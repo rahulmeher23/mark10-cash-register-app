@@ -23,6 +23,14 @@ function hideMessage () {
     message.style.display = "none";
 }
 
+function receivedShort() {
+    const notes = [2000, 500,100,20,10,5,1];
+
+    for (var i = 0; i < notes.length; i++) {
+        returnNotes[i].innerText = "0";    
+    }
+}
+
 
 function calculateChange(amountToReturn) {
     const notes = [2000, 500,100,20,10,5,1];
@@ -53,6 +61,7 @@ function validateAmount () {
         } else {
             lessCash = billAmount - cashAmount ;
             showMessage(`₹ ${billAmount - cashAmount} short! Demand extra cash!`);
+            receivedShort();
         }
     } else {
         if (cashAmount < 0) {
