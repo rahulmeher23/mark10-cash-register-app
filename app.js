@@ -24,7 +24,7 @@ function hideMessage () {
 }
 
 function receivedShort() {
-    const notes = [2000, 500,100,20,10,5,1];
+    const notes = [2000, 500, 100, 20, 10, 5, 1];
 
     for (var i = 0; i < notes.length; i++) {
         returnNotes[i].innerText = "0";    
@@ -33,7 +33,7 @@ function receivedShort() {
 
 
 function calculateChange(amountToReturn) {
-    const notes = [2000, 500,100,20,10,5,1];
+    const notes = [2000, 500, 100, 20, 10, 5, 1];
 
     for (var i = 0; i < notes.length; i++) {
         var notesCount = Math.trunc(amountToReturn / notes[i]);
@@ -64,11 +64,16 @@ function validateAmount () {
             receivedShort();
         }
     } else {
-        if (cashAmount < 0) {
-            showMessage("Please enter a valid cash received amount!");
+        if(billAmount <= 0) {
+            showMessage("Please enter a valid bill amount.");
         } else {
-            showMessage("Please enter a valid bill amount!");
+            showMessage("Please enter a valid cash received amount.");
         }
+        // if (cashAmount <= 0 ) {
+        //     showMessage("Please enter a valid cash received amount!");
+        // } else {
+        //     showMessage("Please enter a valid bill amount!");
+        // }
     }
 }
 
